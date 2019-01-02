@@ -1,5 +1,5 @@
 /**
- * @Author Shankar Morwal
+ * @Author Shreya Malot
  * Router file. Every module will have their own routers.
  */
 import { Routes } from '@angular/router';

@@ -1,12 +1,13 @@
 {
-  "name": "ng-material-seed",
+  "name": "angular-material-chrome-extenstion-seed",
   "version": "0.1.0",
-  "author": "Shankar Morwal (www.morwalz.com)",
+  "author": "Shreya Malot",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --output-path=demo-ext --watch",
+    "deploy" : "ng build --prod --output-path=prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -50,6 +51,6 @@
     "sass-loader": "~7.1.0",
     "ts-node": "~7.0.1",
     "tslint": "~5.11.0",
-    "typescript": "^3.1.1"
+    "typescript": "3.1.6"
   }
 }
