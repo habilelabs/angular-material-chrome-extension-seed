@@ -20,7 +20,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `npm run build` to build the project. The build artifacts will be stored in the `demo-ext/` directory. Use the `-prod` flag for a production build.
+
+##Run extension in Browser
+To install your extension into a Chrome browser, open Browser and navigate to the extension manager.
+ 
+At the top, enable developer extension and navigate to your project unpacked extension directory (demo-ext for this case). Loading it should place the extension in your Chrome toolbar like any other extension.
 
 ## Running unit tests
 

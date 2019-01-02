@@ -1,5 +1,6 @@
 @import '../../../theme/variables.scss';
 .pageFullNav{
+  width: 600px;
   .docs-navbar{
     background: $color-00b; padding: 8px 16px;
     .footer-logo{
@@ -10,6 +11,9 @@
     }
     a{
       color: $color-fff; text-transform: uppercase;
+      &.login-btn {
+        float: right;
+      }
     }
     a:last-child{
       float: right;

@@ -1,6 +1,6 @@
 @import '../../theme/variables.scss';
 header.header-background{
-  width: 100%; float: left; margin-bottom: 40px; background: url('../../assets/images/header-bg.svg') 50% repeat-x, #00bcd4; padding: 170px 0 140px;
+  width: 100%; float: left; margin-bottom: 40px; background: url('../../assets/images/header-bg.svg') 50% repeat-x, #00bcd4; padding: 100px 0;
   .header-section{
     text-align: center; font-family: $font-stack;
     .header-headline{
@@ -38,7 +38,7 @@ header.header-background{
     display: -ms-flexbox;
     display: flex;
     max-width: 920px;
-    margin: 60px 0;
+    margin: 40px 0 0;
     .docs-homepage-promo-img{
       text-align: center; width: 50%;
       img{
